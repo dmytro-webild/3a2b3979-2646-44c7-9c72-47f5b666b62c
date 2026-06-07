@@ -51,7 +51,7 @@ export default function LandingPage() {
   <div id="home" data-section="home">
       <HeroSplitKpi
       background={{
-        variant: "plain"}}
+        variant: "radial-gradient"}}
       imagePosition="right"
       title="Elevate Your Everyday with ZYROXstore"
       description="Discover innovative tech gadgets and accessories designed to simplify your life and amplify your style. Shop the future, today."
@@ -165,11 +165,11 @@ export default function LandingPage() {
         {
           id: "t3",          title: "Organized and Stylish",          quote: "The electronic organizer has been a lifesaver for my travels. No more tangled cables! It's sleek and functional. Great purchase!",          name: "Emily P.",          role: "Frequent Traveler",          imageSrc: "http://img.b2bpic.net/free-photo/handsome-stylish-redhead-man-flannel-shirt-posing-studio-against-white-wall_613910-19142.jpg",          imageAlt: "Emily P."},
         {
-          id: "t4",          title: "Health Tracking Made Easy",          quote: "My wellness band is incredibly accurate and comfortable to wear. It helps me stay on top of my fitness goals. Thank you, ZYROXstore!",          name: "David R.",          role: "Fitness Coach",          imageSrc: "http://img.b2bpic.net/free-photo/cool-darkskinned-bearded-man-white-tshirt-orange-jacket-smiles-sincerely-outside-charming-guy-sunglasses-shows-ok-signs-near-white-wall_197531-28765.jpg",          imageAlt: "David R."},
+          id: "t4",          title: "Health Tracking Made Easy",          quote: "My wellness band is incredibly accurate and comfortable to wear. It helps me stay on top of my fitness goals. Thank you, ZYROXstore!",          name: "David R.",          role: "Fitness Coach",          imageSrc: "http://img.b2bpic.net/free-photo/cool-darkskinned-bearded-man-white-tshirt-orange-jacket-smiles-sincerely-outside-charming-guy-sunglasses-shows-ok-signs-near-white-wall_197531-28765.jpg",          alt: "David R."},
         {
-          id: "t5",          title: "Excellent Customer Service",          quote: "Beyond the great products, the customer service at ZYROXstore is top-notch. They helped me with an inquiry quickly and professionally.",          name: "Jessica M.",          role: "Happy Customer",          imageSrc: "http://img.b2bpic.net/free-photo/senior-woman-drinking-coffee-gathering_23-2149230382.jpg",          imageAlt: "Jessica M."},
+          id: "t5",          title: "Excellent Customer Service",          quote: "Beyond the great products, the customer service at ZYROXstore is top-notch. They helped me with an inquiry quickly and professionally.",          name: "Jessica M.",          role: "Happy Customer",          imageSrc: "http://img.b2bpic.net/free-photo/senior-woman-drinking-coffee-gathering_23-2149230382.jpg",          alt: "Jessica M."},
         {
-          id: "t6",          title: "A Brand I Trust",          quote: "Every purchase from ZYROXstore has exceeded my expectations. Their commitment to quality and innovation makes them my go-to for tech accessories.",          name: "Alex K.",          role: "Loyal Shopper",          imageSrc: "http://img.b2bpic.net/free-photo/woman-with-short-hair-relaxing-outdoors_23-2149015728.jpg",          imageAlt: "Alex K."},
+          id: "t6",          title: "A Brand I Trust",          quote: "Every purchase from ZYROXstore has exceeded my expectations. Their commitment to quality and innovation makes them my go-to for tech accessories.",          name: "Alex K.",          role: "Loyal Shopper",          imageSrc: "http://img.b2bpic.net/free-photo/woman-with-short-hair-relaxing-outdoors_23-2149015728.jpg",          alt: "Alex K."},
       ]}
       title="What Our Customers Say"
       description="Hear from the growing community who trust ZYROXstore for their tech needs and exceptional service."
@@ -179,7 +179,7 @@ export default function LandingPage() {
   <div id="metrics" data-section="metrics">
       <MetricCardOne
       textboxLayout="default"
-      gridVariant="uniform-all-items-equal"
+      gridVariant="bento-grid"
       useInvertedBackground={false}
       animationType="slide-up"
       metrics={[
@@ -247,7 +247,7 @@ export default function LandingPage() {
       <ContactSplit
       useInvertedBackground={true}
       background={{
-        variant: "plain"}}
+        variant: "radial-gradient"}}
       tag="Get in Touch"
       title="Connect With Us"
       description="Have a question, need support, or want to collaborate? Our friendly team is always ready to assist you. Reach out and let's talk!"
